@@ -7,7 +7,8 @@ For this project, we expect you to look at this concept:
 
 - [React](https://intranet.alxswe.com/concepts/547)
 
-![IMAGE](https://github.com/AishaKhalfan/alx-react/blob/main/0x01-react_intro/INTRO.jpg)Resources
+
+![intro](https://github.com/AishaKhalfan/alx-react/blob/main/0x01-react_intro/images/INTRO.jpg)
 
 # Resources
 ### Read or watch:
