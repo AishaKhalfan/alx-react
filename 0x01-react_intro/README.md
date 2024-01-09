@@ -48,7 +48,7 @@ You will need a favicon and the Holberton logo. Download them and add them to th
 ![holbertonlogo](https://github.com/AishaKhalfan/alx-react/blob/main/0x01-react_intro/images/holberton-logo.jpg)
 
 
-Favicon
+**Favicon**
 ![favicon](https://github.com/AishaKhalfan/alx-react/blob/main/0x01-react_intro/images/favicon.ico)
 
 
