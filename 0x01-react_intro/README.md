@@ -44,249 +44,281 @@ You will need a favicon and the Holberton logo. Download them and add them to th
 
 **Holberton Logo**
 
-![holbertonlogo]()
+![holbertonlogo](https://github.com/AishaKhalfan/alx-react/blob/main/0x01-react_intro/images/holberton-logo.jpg)
 
 
 Favicon
+![favicon](https://github.com/AishaKhalfan/alx-react/blob/main/0x01-react_intro/images/favicon.ico)
 
 
+**Remove the unused files:**
 
-Remove the unused files:
+- service-worker
+- index.css
+- App.test.js
 
-service-worker
-index.css
-App.test.js
-in task_0/dashboard/src/App.js, create a function App that returns:
+**in task_0/dashboard/src/App.js, create a function App that returns:**
 
-a header div with a class named App-header containing the Holberton logo and a h1 with the text School dashboard
-a body div with a class named App-body containing at least one paragraph with the text Login to access the full dashboard
-a footer div with a class named App-footer containing at least one paragraph with the text Copyright 2020 - holberton School
-Modify the App.css to make the project looks like the following screenshot:
+- a header div with a class named App-header containing the Holberton logo and a h1 with the text School dashboard
+- a body div with a class named App-body containing at least one paragraph with the text Login to access the full dashboard
+- a footer div with a class named App-footer containing at least one paragraph with the text Copyright 2020 - holberton School
+
+**Modify the App.css to make the project looks like the following screenshot:**
+
+![dashboard](https://github.com/AishaKhalfan/alx-react/blob/main/0x01-react_intro/images/dashboard.png)
 
 
+**Requirements:**
 
-Requirements:
+- When running, there should not be any lint error in the console
 
-When running, there should not be any lint error in the console
-Repo:
+**Repo:**
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_0/dashboards/src/, task_0/dashboard/src/App.css, task_0/dashboard/src/App.js
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: task_0/dashboards/src/, task_0/dashboard/src/App.css, task_0/dashboard/src/App.js
   
-1. Basic Application
-mandatory
-Repo:
+## Task 1. Basic Application
 
-GitHub repository: alx-react
-Directory: 0x00-react_introduction
-File: task_0/dashboards/src/, task_0/dashboard/src/App.css, task_0/dashboard/src/App.js
+**Repo:**
+
+- GitHub repository: alx-react
+- Directory: 0x00-react_introduction
+- File: ``task_0/dashboards/src/``, ``task_0/dashboard/src/App.css``, ``task_0/dashboard/src/App.js``
  
-2. Embedding expressions, functions
-mandatory
-Using your code from the previous task, in task_1/dashboard/src/utils.js:
+## Task 2. Embedding expressions, functions
 
-Create a function named getFullYear that will return the current year
-Create a function named getFooterCopy:
-It accepts one argument isIndex(boolean). When true, the function should return Holberton School. When false, the function should return Holberton School main dashboard
-Modify the footer returned in task_1/dashboard/src/App.js to use these two functions
-in task_1/dashboard/src/Notifications.js, create a Notifications element:
+**Using your code from the previous task, in ``task_1/dashboard/src/utils.js``:**
 
-It should import React
-It should export a function
-The function should return a div with the class Notifications
-The div should contain a paragraph with the text Here is the list of notifications
-import the file Notifications.css.
-in task_1/dashboard/src/Notifications.css, style the Notifications class:
+- Create a function named getFullYear that will return the current year
+- Create a function named getFooterCopy:
+	- It accepts one argument isIndex(boolean). When true, the function should return Holberton School. When false, the function should return Holberton School main dashboard
+- Modify the footer returned in task_1/dashboard/src/App.js to use these two functions
+***in ``task_1/dashboard/src/Notifications.js``, create a Notifications element:**
 
-Add a border and some padding around the div
-Render the Notifications element:
+- It should import React
+- It should export a function
+- The function should return a div with the class Notifications
+- The div should contain a paragraph with the text Here is the list of notifications
+- import the file Notifications.css.
 
-Modify task_1/dashboard/src/index.js to render the new element (Notifications) in a div named root-notifications
-Check that you can see the two elements on the browser, and using the React browser extension
-Requirements:
+**in task_1/dashboard/src/Notifications.css, style the Notifications class:**
 
-When running, there should not be any lint error in the console
-Repo:
+- Add a border and some padding around the div
+**Render the Notifications element:**
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_1/dashboard/src/, task_1/dashboard/src/utils.js, task_1/dashboard/src/App.js, task_1/dashboard/src/Notifications.css, task_1/dashboard/src/Notifications.js, task_1/dashboard/src/index.js
+- Modify ``task_1/dashboard/src/index.js`` to render the new element (Notifications) in a div named root-notifications
+- Check that you can see the two elements on the browser, and using the React browser extension
+**Requirements:**
+
+- When running, there should not be any lint error in the console
+**Repo:**
+
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: ``task_1/dashboard/src/``, ``task_1/dashboard/src/utils.js``, ``task_1/dashboard/src/App.js``, ``task_1/dashboard/src/Notifications.css``, ``task_1/dashboard/src/Notifications.js``, ``task_1/dashboard/src/index.js``
  
-3. Modify the App
-mandatory
-using your code from the previous task, in task_2/dashboard/src/App.js under the paragraph that says Login to access the full dashboard:
+## Task 3. Modify the App
 
-add a label and input for email
-add a label and input for password
-when the user clicks on a label, it should select the corresponding input
-add one button element with the text “OK”
-Repo:
+**using your code from the previous task, in task_2/dashboard/src/App.js under the paragraph that says Login to access the full dashboard:**
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_2/dashboard/src/, task_2/dashboard/src/App.js
+- add a label and input for email
+- add a label and input for password
+- when the user clicks on a label, it should select the corresponding input
+- add one button element with the text “OK”
+
+**Repo:**
+
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: task_2/dashboard/src/, task_2/dashboard/src/App.js
  
-4. Modify the Notifications
-mandatory
-in task_2/dashboard/src/utils.js:
+## Task 4. Modify the Notifications
 
-Create a function named getLatestNotification that returns the following string: <strong>Urgent requirement</strong> - complete by EOD
-in task_2/dashboard/src/Notifications.js in the Notifications div:
+**in task_2/dashboard/src/utils.js:**
 
-add a button element with inline styling (without using the CSS file):
-show button on right side of notifications box
-aria-label is Close
-when user clicks on the button it logs to the console Close button has been clicked
-in the button element add a children img element that will import the close-icon.png image
-after the paragraph add an unordered list
-the list has the following items:
-The first one has a default priority and says New course available
-The second one has a urgent priority and says New resume available
-Add the priority to the first and second items of the list using a data attribute
-The last item correctly displays the content of getLatestNotification using dangerouslySetInnerHTML
-in task_2/dashboard/src/Notifications.css:
+- Create a function named getLatestNotification that returns the following string: <strong>Urgent requirement</strong> - complete by EOD
 
-style the notification priorities using their data attribute: set the color of default items to blue, and the color of urgent items to red.
-Requirements:
+**in task_2/dashboard/src/Notifications.js in the Notifications div:**
 
-When running, there should not be any lint error in the console
-Your app should look like the following screenshot:
+- add a button element with inline styling (without using the CSS file):
+	- show button on right side of notifications box
+	- aria-label is Close
+	- when user clicks on the button it logs to the console Close button has been clicked
+- in the button element add a children img element that will import the close-icon.png image
+- after the paragraph add an unordered list
+	- the list has the following items:
+		- The first one has a default priority and says New course available
+		- The second one has a urgent priority and says New resume available
+		- Add the priority to the first and second items of the list using a data attribute
+		- The last item correctly displays the content of getLatestNotification using dangerouslySetInnerHTML
+**in task_2/dashboard/src/Notifications.css:**
 
+- style the notification priorities using their data attribute: set the color of default items to blue, and the color of urgent items to red.
 
-Repo:
+**Requirements:**
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_2/dashboard/src/, task_2/dashboard/src/utils.js, task_2/dashboard/src/Notifications.js, task_2/dashboard/src/Notifications.css
+- When running, there should not be any lint error in the console
+- Your app should look like the following screenshot:
+
+![task4](https://github.com/AishaKhalfan/alx-react/blob/main/0x01-react_intro/images/task4.png)
+
+**Repo:**
+
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: task_2/dashboard/src/, task_2/dashboard/src/utils.js, task_2/dashboard/src/Notifications.js, task_2/dashboard/src/Notifications.css
  
-5. Create basic tests with four tests
-mandatory
-in task_3/dashboard/src/utils.test.js:
+## Task 5. Create basic tests with four tests
 
-Write a test to check that the function getFullYear returns the correct year (be careful to not create a time bomb)
-Write a test to check that getFooterCopy returns the correct string when the argument is true or false
-Write a test checking the returned string for getLatestNotification
-Repo:
+**in ``task_3/dashboard/src/utils.test.js``:**
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_3/dashboard/src/utils.test.js
+- Write a test to check that the function getFullYear returns the correct year (be careful to not create a time bomb)
+- Write a test to check that getFooterCopy returns the correct string when the argument is true or false
+- Write a test checking the returned string for getLatestNotification
+
+**Repo:**
+
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: task_3/dashboard/src/utils.test.js
  
-6. Install Enzyme
-mandatory
-Install Enzyme with npm
-Create a file named setupTests.js and configure the adapter for Enzyme
-Repo:
+## Task 6. Install Enzyme
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_3/dashboard/src/setupTests.js
+- Install Enzyme with ``npm``
+- Create a file named ``setupTests.js`` and configure the adapter for Enzyme
+
+**Repo:**
+
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: task_3/dashboard/src/setupTests.js
   
-7. Create React tests
-mandatory
-in task_3/dashboard/src/App.test.js create four tests:
+## Task 7. Create React tests
 
-test that App renders without crashing
-verify that App renders a div with the class App-header
-verify that App renders a div with the class App-body
-verify that App renders a div with the class App-footer
-in task_3/dashboard/src/Notifications.test.js create three tests
+**in ``task_3/dashboard/src/App.test.js`` create four tests:**
 
-test that Notifications renders without crashing
-verify that Notifications renders three list items
-verify that Notifications renders the text Here is the list of notifications
-Requirements:
+- test that App renders without crashing
+- verify that App renders a div with the class App-header
+- verify that App renders a div with the class App-body
+- verify that App renders a div with the class App-footer
 
-When running the test suites, you should see the following result
-You must use shallow rendering to write the React tests
+**in ``task_3/dashboard/src/Notifications.test.js`` create three tests**
+
+- test that Notifications renders without crashing
+- verify that Notifications renders three list items
+- verify that Notifications renders the text Here is the list of notifications
+
+**Requirements:**
+
+- When running the test suites, you should see the following result
+- You must use shallow rendering to write the React tests
+``
 Test Suites: 3 passed, 3 total
 Tests: 11 passed, 11 total
-Repo:
+``
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_3/dashboard/src/App.test.js, task_3/dashboard/src/Notifications.test.js
+**Repo:**
+
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: ``task_3/dashboard/src/App.test.js``, ``task_3/dashboard/src/Notifications.test.js``
  
-8. Deploy to a GitHub page
-mandatory
-Deploy your application to GitHub Pages using gh-pages branch and create-react-app
+## Task 8. Deploy to a GitHub page
+
+Deploy your application to GitHub Pages using ``gh-pages`` branch and ``create-react-app``
 
 Your application should be working correctly when accessing the GitHub URL.
 
 Add URLs here:
-Repo:
+**Repo:**
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_4/
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: task_4/
  
-9. Create a project using Webpack
-mandatory
-Without reusing create-react-app or the code from the previous exercise, start a brand new npm project
+## Task 9. Create a project using Webpack
+
+Without reusing ``create-react-app`` or the code from the previous exercise, start a brand new npm project
 
 Reusing what you learned during the Webpack module:
 
-Set up a system to output a bundle.js file in a dist folder
-Set up a dev server with hot reloading
-Create a src folder that will contain your Javascript
-Set up a simple html file in the dist folder that will import the bundle file in the body tag.
+- Set up a system to output a bundle.js file in a dist folder
+- Set up a dev server with hot reloading
+- Create a src folder that will contain your Javascript
+- Set up a simple html file in the dist folder that will import the bundle file in the body tag.
 Install and configure the various plugins to support:
 
-inline source map
-style loader
-css loader
-image webpack loader
-Repo:
+- inline source map
+- style loader
+- css loader
+- image webpack loader
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_5/dashboard/config/webpack.config.js, task_5/dashboard/dist/index.html, task_5/dashboard/src/index.js
+**Repo:**
+
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: task_5/dashboard/config/webpack.config.js, task_5/dashboard/dist/index.html, task_5/dashboard/src/index.js
   
-10. Install Babel
-mandatory
-Install Babel, and in task_5/dashboard/.babelrc, add the presets for preset-env and preset-react
-Add a babel-loader to the Webpack configuration so you can support js and jsx files
-Import the files that you wrote in the previous task. All the Javascript and React code should be within the src folder
-At this point, running webpack-dev-server should correctly execute your code, and you should be able to see the dashboard like in the last task
+## Task 10. Install Babel
 
-Repo:
+- Install Babel, and in ``task_5/dashboard/.babelrc``, add the presets for preset-env and preset-react
+- Add a babel-loader to the Webpack configuration so you can support js and jsx files
+- Import the files that you wrote in the previous task. All the Javascript and React code should be within the src folder
+At this point, running ``webpack-dev-server`` should correctly execute your code, and you should be able to see the dashboard like in the last task
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_5/dashboard/.babelrc, task_5/dashboard/config/webpack.config.js
+**Repo:**
+
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: task_5/dashboard/.babelrc, task_5/dashboard/config/webpack.config.js
  
-11. Reorganize the files
-mandatory
+## Task 11. Reorganize the files
+
 Let’s reorganize the files in our project:
 
-Every file related to the App, should be within a App folder
-Every file related to the Notifications, should be within a Notifications folder
-Every file related to the utils functions, should be within a utils folder
-Every asset file should be within the assets folder
-Set up the favicon.ico in the dist folder
-Webpack config file should be within a config folder if it isn’t already
-Repo:
+- Every file related to the App, should be within a App folder
+- Every file related to the Notifications, should be within a Notifications folder
+- Every file related to the utils functions, should be within a utils folder
+- Every asset file should be within the assets folder
+- Set up the favicon.ico in the dist folder
+- Webpack config file should be within a config folder if it isn’t already
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_5/dashboard/src/App/App.css, task_5/dashboard/src/App/App.js, task_5/dashboard/src/App/App.test.js, task_5/dashboard/src/Notifications/Notifications.css, task_5/dashboard/src/Notifications/Notifications.js, task_5/dashboard/src/Notifications/Notifications.test.js, task_5/dashboard/src/utils/utils.js, task_5/dashboard/src/utils/utils.test.js, task_5/dashboard/config/webpack.config.js, task_5/dashboard/src/assets/holberton-logo.jpg, task_5/dashboard/dist/favicon.ico
+**Repo:**
+
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: 
+	- task_5/dashboard/src/App/App.css, 
+	- task_5/dashboard/src/App/App.js, 
+	- task_5/dashboard/src/App/App.test.js, 
+	- task_5/dashboard/src/Notifications/Notifications.css, 
+	- task_5/dashboard/src/Notifications/Notifications.js,
+	- task_5/dashboard/src/Notifications/Notifications.test.js, 
+	- task_5/dashboard/src/utils/utils.js,
+	- task_5/dashboard/src/utils/utils.test.js,
+	- task_5/dashboard/config/webpack.config.js,
+	- task_5/dashboard/src/assets/holberton-logo.jpg,
+	- task_5/dashboard/dist/favicon.ico
   
-12. Testing
-mandatory
+## Task 12. Testing
+
 Install Jest and Enzyme to run your test suites
 
-move the setupTests.js file to config folder if you have not already
+move the ``setupTests.js`` file to config folder if you have not already
 
-Requirements:
+**Requirements:**
 
-Your package.json should have the two following scripts:
+- Your ``package.json`` should have the two following scripts:
+```yaml
     "start": "webpack-dev-server --mode development --config config/webpack.config.js",
     "test": "jest"
-Running the first script should start your dev server and build without any error
-Running the second script should start your test suites and pass for each test
-Repo:
+```
+- Running the first script should start your dev server and build without any error
+- Running the second script should start your test suites and pass for each test
 
-GitHub repository: alx-react
-Directory: 0x01-react_intro
-File: task_5/dashboard/config/setupTests.js, task_5/dashboard/package.json
+**Repo:**
+
+- GitHub repository: alx-react
+- Directory: 0x01-react_intro
+- File: task_5/dashboard/config/setupTests.js, task_5/dashboard/package.json
