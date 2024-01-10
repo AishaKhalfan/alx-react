@@ -2,7 +2,7 @@
 
 ``Front-end``|``JavaScript``|``ES6``|``React``
 
-![STYLE]()
+![STYLE](https://github.com/AishaKhalfan/alx-react/blob/main/0x04-React_inline_styling/images/style.jpg)
 
 ## Resources
 **Read or watch:**
@@ -155,7 +155,7 @@ Let’s make the application responsive to the screen size using media queries. 
 - Make sure that the button is on a new line
 - The screen should look like the image below:
 
-![task3]()
+![task3](https://github.com/AishaKhalfan/alx-react/blob/main/0x04-React_inline_styling/images/task3.png)
 
 **Modify the component Notifications in task_3/dashboard/src/Notifications/Notifications.js:**
 
@@ -173,7 +173,7 @@ Let’s make the application responsive to the screen size using media queries. 
 **Requirements:**
 
 - When the notifications panel is open, the screen should look like the image below:
-![task3b]()
+![task3b](https://github.com/AishaKhalfan/alx-react/blob/main/0x04-React_inline_styling/images/task3b.png)
 
 ### Repo:
 
@@ -200,7 +200,7 @@ Let’s create an animation that we can display when the user hovers on the Noti
 
 - When the notifications panel is hovered or opened, the UI should look like the image below:
 
-![animation]()
+![animation](https://github.com/AishaKhalfan/alx-react/blob/main/0x04-React_inline_styling/images/task4.gif)
 
 ### Repo:
 
