@@ -35,11 +35,12 @@ $ curl -sl https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
 $ sudo bash nodesource_setup.sh
 $ sudo apt install nodejs
 ```
+
 Provided files
 ``babel.config.js``
 
 <details>
-	<summary>Click to show/hide file contents</summary>
+  <summary>Click to show/hide file contents</summary>
 ```js
 module.exports = {
   presets: [
@@ -59,7 +60,7 @@ module.exports = {
 ``jsconfig.json``
 
 <details>
-	<summary>Click to show/hide file contents</summary>
+  <summary>Click to show/hide file contents</summary>
 ```json
 {
   "compilerOptions": {
@@ -75,7 +76,7 @@ module.exports = {
 ``package.json``
 
 <details>
-	<summary>Click to show/hide file contents</summary>
+  <summary>Click to show/hide file contents</summary>
 ```json
 {
   "scripts": {
