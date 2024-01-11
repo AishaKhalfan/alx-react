@@ -37,8 +37,9 @@ $ sudo apt install nodejs
 ```
 Provided files
 ``babel.config.js``
+
 <details>
-<summary>Click to show/hide file contents</summary>
+	<summary>Click to show/hide file contents</summary>
 ```js
 module.exports = {
   presets: [
@@ -56,8 +57,9 @@ module.exports = {
 </details>
 
 ``jsconfig.json``
+
 <details>
-<summary>Click to show/hide file contents</summary>
+	<summary>Click to show/hide file contents</summary>
 ```json
 {
   "compilerOptions": {
@@ -71,8 +73,9 @@ module.exports = {
 </details>
 
 ``package.json``
+
 <details>
-<summary>Click to show/hide file contents</summary>
+	<summary>Click to show/hide file contents</summary>
 ```json
 {
   "scripts": {
