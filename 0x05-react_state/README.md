@@ -2,7 +2,7 @@
 
 ``Front-end``|``JavaScript``|``ES6``|``React``
 
-![state]()
+![state](https://github.com/AishaKhalfan/alx-react/blob/main/0x05-react_state/images/state.jpeg)
 
 # Resources
 **Read or watch:**
