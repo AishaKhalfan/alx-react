@@ -313,6 +313,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ``login-success.json``
 <details>
   <summary>Click to show/hide contents of notifications.json </summary>
+
 ```json
 {
   "first_name": "Johann",
@@ -321,6 +322,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
   "profile_picture": "http://placehold.it/32x32"
 }
 ```
+
 </details>
 # Tasks
 0. Read data from a JSON
