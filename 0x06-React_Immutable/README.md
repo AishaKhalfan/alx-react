@@ -81,6 +81,7 @@ module.exports = {
 
 <details>
 <summary>Click to show/hide file contents </summary>
+
 ```json
 {
   "scripts": {
@@ -103,6 +104,7 @@ module.exports = {
   }
 }
 ```
+
 </details>
 
 # Tasks
