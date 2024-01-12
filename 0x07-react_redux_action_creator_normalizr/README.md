@@ -326,21 +326,23 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ```
 
 </details>
+
 # Tasks
-0. Read data from a JSON
-mandatory
-Reuse the latest dashboard project you worked on in the React course 0x06-React_state
+## Task 0. Read data from a JSON
 
-For this task, place notifications.json into the root of the project directory and use the data inside for the next step.
+Reuse the latest dashboard project you worked on in the React course ``0x06-React_state``
 
-Create a new notifications.js file in a schema folder:
+For this task, place ``notifications.json`` into the root of the project directory and use the data inside for the next step.
 
-Import the JSON data from notifications.json and give it a name. Try import * as [variable name] from [path to notifications.json]
-Create a function named getAllNotificationsByUser that accepts userId as an argument
-The function should return a list containing all the context objects from the notifications.json data when the author id is the same as the userId
+Create a new ``notifications.js`` file in a schema folder:
+
+- Import the JSON data from notifications.json and give it a name. Try ``import * as [variable name]`` from ``[path to notifications.json]``
+- Create a function named ``getAllNotificationsByUser`` that accepts ``userId`` as an argument
+- The function should return a list containing all the context objects from the notifications.json data when the author id is the same as the userId
 In the same schema directory, create a notifications.test.js file:
 
-Add a test that uses the id 5debd764a7c57c7839d722e9 and verifies that the following data is returned:
+- Add a test that uses the id 5debd764a7c57c7839d722e9 and verifies that the following data is returned:
+```json
 [
   {
     guid: "2d8e40be-1c78-4de0-afc9-fcc147afd4d2",
@@ -357,38 +359,39 @@ Add a test that uses the id 5debd764a7c57c7839d722e9 and verifies that the follo
       "Non diam phasellus vestibulum lorem sed risus ultricies. Tellus mauris a diam maecenas sed"
   }
 ]
-Tips:
+```
+**Tips:**
 
-You can easily import JSON data using Babel
-When writing your test, you can use the arrayContaining method from Jest to easily compare what the function returns and what you are expecting
-Requirements:
+- You can easily import JSON data using Babel
+- When writing your test, you can use the arrayContaining method from Jest to easily compare what the function returns and what you are expecting
+**Requirements:**
 
-You can use any loop function to go through the array
-All the tests in the project should pass
-Repo:
+- You can use any loop function to go through the array
+- All the tests in the project should pass
+## Repo:
 
-GitHub repository: alx-react
-Directory: 0x07-react_redux_action_creator_normalizr
-File: task_0/dashboard/src/schema/notifications.js, task_0/dashboard/src/schema/notifications.test.js
+- GitHub repository: alx-react
+- Directory: 0x07-react_redux_action_creator_normalizr
+- File: task_0/dashboard/src/schema/notifications.js, task_0/dashboard/src/schema/notifications.test.js
  
-1. Normalize a nested JSON
-mandatory
-Copy over dashboard from the previous task into a task_1 directory at the root of the project
+## Task 1. Normalize a nested JSON
 
-Modify src/schema/notifications.js to set up a schema using Normalizr
+Copy over ``dashboard`` from the previous task into a task_1 directory at the root of the project
 
-You’re going to use schema.Entity to create a 3 of entities.
+Modify ``src/schema/notifications.js`` to set up a schema using Normalizr
+
+You’re going to use ``schema.Entity`` to create a 3 of entities.
 
 The first one is an example the task will provide for you.
 
-const user = new schema.Entity("users")
+``const user = new schema.Entity("users")``
 
-Create a message entity in a variable called message whose key is messages and set the idAttribute to the string guid in the options
-Create a notification entity in a variable called notification whose key is notifications and set the definition of the entity as so:
-author: user
-context: message
-Add a test in schema/notifications.test.js to verify that your normalized data has a correct result array. It should contain:
-
+- Create a message entity in a variable called message whose key is messages and set the idAttribute to the string guid in the options
+- Create a notification entity in a variable called notification whose key is notifications and set the definition of the entity as so:
+		- author: user
+		- context: message
+Add a test in ``schema/notifications.test.js`` to verify that your normalized data has a correct result array. It should contain:
+```json
   "5debd76480edafc8af244228"
   "5debd764507712e7a1307303"
   "5debd76444dd4dafea89d53b"
@@ -403,6 +406,7 @@ Add a test in schema/notifications.test.js to verify that your normalized data h
   "5debd764af0fdd1fc815ad9b"
   "5debd76468cb5b277fd125f4"
   "5debd764de9fa684468cdc0b"
+```
 Add a test to verify that your normalized data has a correct users entity. Test to access the user with the id 5debd764a7c57c7839d722e9. It should return:
 
       age: 25,
