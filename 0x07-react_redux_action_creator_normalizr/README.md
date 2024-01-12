@@ -38,6 +38,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ``notifications.json``
 <details>
   <summary>Click to show/hide contents of notifications.json</summary>
+
 ```json
 [
   {
@@ -308,6 +309,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
   }
 ]
 ```
+
 </details>
 
 ``login-success.json``
